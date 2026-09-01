@@ -3,7 +3,7 @@ Welcome to the Introduction to NLP repository!
 
 This repository contains Jupyter notebooks designed to help you learn the basics of Natural Language Processing through hands-on exercises.
 
-Installed Packages
+## Installed Packages
 These are the installed packages and versions used for this course. All were installed in a conda environment (see below for how I created this).
 
 python=3.11
@@ -20,10 +20,11 @@ gensim==4.3.3
 seaborn==0.13.2 
 torch==2.5.1 
 ipywidgets==8.1.5
-Updates
+
+## Updates
 The world of AI is constantly evolving with new techniques and models emerging all the time. So, while we do our best to keep everything up to date, sometimes the code in this repo may get updated before the accompanying video lessons. To make sure you're getting the most out of this course, we recommend you always use the latest code here alongside the video lessons, while we work on updating the videos.
 
-Conda Environment
+## Conda Environment
 Virtual environments are a great way to manage different packages for different projects. Creating a virtual environment for this section of the course allows you to ensure you can use the correct packages to follow along, without affecting any other packages you already have installed.
 
 conda create --name nlp_course_env python=3.11
